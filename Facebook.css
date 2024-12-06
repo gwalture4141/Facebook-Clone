@@ -1,0 +1,457 @@
+.navlist{
+    display: inline;
+
+   
+}
+.leftnavlist{
+    display: inline;
+   margin-top: 7px;
+   margin-bottom: 7px;
+    margin-left: 15px;
+    margin-right: 20px;
+    position: relative;
+
+}
+.FBlogo{
+    height: 40px; 
+    width: 40px;
+    
+    border:2px solid white; 
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px #000000; 
+    position: absolute;
+    display: inline;
+    
+}
+.searchbox{
+    height: 40px;
+    position: absolute;
+     width: 300px;
+     margin-left: 60px;
+     padding: 10px;
+     background-color: rgba(187, 194, 199, 0.425);
+    border: 1px solid white;
+    
+     border-radius: 20px;
+     display: inline;
+}
+.middlenavlist{
+    display: inline;
+    margin-left: 450px;
+   
+    margin-right: 20px;
+    position: relative;
+}
+.middlelisticons{
+    margin-bottom: 5px;
+    margin-left: 155px;
+    margin-top: 10px;
+    position: relative;
+    
+}
+.middlelisticons:hover{
+   
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgb(39, 11, 153);
+   
+   
+}
+.rightnavlist{
+    display: inline;
+    margin-left: 200px;
+   margin-top: 2px;
+   margin-bottom: 2px;
+    margin-right: 20px;
+    position: relative;
+    
+
+
+}
+.rightlisticons{
+    margin-bottom: 5px;
+    margin-left: 70px;
+    margin-top: 7px;
+   
+    
+   
+}
+.user_logo{
+    height: 40px;
+     width: 40px;
+     border:2px solid white; 
+     border-radius: 50px;
+     box-shadow: 2px 2px 10px #000000; 
+     margin-top:5px;
+     margin-bottom: 10px;
+     margin-left: 80px;
+     margin-right: 10px;
+     position: absolute;
+}
+
+@media screen and (min-width:500px) 
+{
+
+    .navlist{
+        display: inline;
+    
+       
+    }
+    .leftnavlist{
+        display: inline-block;
+
+    }
+    .middlenavlist{
+        display: inline-block;
+    
+    }
+    .rightnavlist{
+        display: inline-block;
+    
+    }
+
+
+}
+.leftsidebar{
+    background-color: rgb(187, 194, 199);
+   
+    height: 3000px;
+    width: 30%;
+    margin-top: 40px;
+
+
+}
+.middlesidebar{
+    background-color: rgb(187, 194, 199);
+    height: 3000px;
+    width: 45%;
+    /* margin-left: 2px; */
+    margin-top: 40px;
+}
+.rightsidebar{
+    background-color: rgb(187, 194, 199);
+    width: 30%;
+    height: 3000px;
+   
+    margin-top: 40px;
+    /* margin-left:2px; */
+    
+}
+.middleheder{
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+    height: 150px;
+    border-radius: 12px;
+}
+.middle_header_profile_user{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+   
+    margin: 10px;
+    display: inline;
+}
+.middle_header_textbar{
+    height: 40px;
+    width:540px;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(187, 194, 199, 0.425);
+    display: inline;
+    
+}
+.middle_header_live_video_part{
+    display: flex;
+   
+    padding-top: 0px;
+    padding-left: 70px;
+   padding-right: 30px;
+    padding-bottom: 40px;
+    
+}
+.middle_header_live_video_image{
+    
+    height: 30px;
+    width: 30px;
+    display: inline;
+     margin-top: 10px
+}
+.middle_header_live_video_text{
+   display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 6px;
+     margin-bottom: 10px;
+   
+    
+
+}
+.middle_header_videoanchor{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.694);
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+.middle_header_videoanchor:hover{
+    background-color: #00000011;
+    border-radius: 10px;
+
+}
+.middle_user_story_section{
+   
+    display: flex;
+     height: 200px;
+    margin:20px ;
+    padding: 5px;
+    border-radius: 12px;
+}
+.User_story{
+    height: 190px;
+    width: 110px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    background-image: url(./StoryVideos/User_Story_Profile_image.jpg);
+   background-size: cover;
+ 
+     margin: 7px;
+
+}
+.Om_story{
+    height: 190px;
+    width: 110px;
+    background-color: #d1ae13;
+    border-radius: 10px;
+     margin: 7px;
+    
+
+}
+.Sai_story{
+    height: 190px;
+    width: 110px;
+    background-color: #12bdae;
+    border-radius: 10px;
+     margin: 7px;
+
+}
+.Ram_story{
+    height: 190px;
+    width: 110px;
+    background-color: #b90dab;
+    border-radius: 10px;
+     margin: 7px;
+
+}
+.Sayali_story{
+    height: 190px;
+    width: 110px;
+    background-color: #1e0bc7;
+    border-radius: 10px;
+     margin: 7px;
+
+}
+.User_video_story{
+    border-radius: 12px;
+    
+}
+.Sai_video_story{
+    border-radius: 12px;
+    
+}
+.Ram_video_story{
+    border-radius: 12px;
+    
+}
+.Om_video_story{
+    border-radius: 12px;
+    
+}
+.Sayali_video_story{
+    border-radius: 12px;
+    
+}
+.User_Story_Profile{
+   /* border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+   height: 140px;
+   width: 100%;
+   position: relative; */
+   background-image: url(./StoryVideos/User_Story_Profile_image.jpg);
+   background-size: cover;
+}
+.User_Story_Profile_Add_Store_icon{
+    height: 40px;
+    width: 40px;
+    
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 2px 2px 8px  black;
+    
+    display: inline;
+}
+.leftNavBar{
+    /* position: fixed; */
+    margin-top: 20px;
+}
+.leftnavanchor{
+    text-decoration: none;color: rgba(0, 0, 0, 0.694);
+}
+.leftnavbarli_1{
+    height:40px;
+    width: auto;
+   
+    padding: 5px;
+    display: flex;
+}
+.leftnavbarli_1:hover{
+    background-color: rgba(225, 228, 231, 0.818);
+}
+
+.leftnavbarli_1_icon{
+    height: 30px;
+    width: 30px;
+    display: inline;
+     margin-top: 10px
+}
+.leftnavbarli_1_text{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 10px;
+     margin-bottom: 10px;
+
+}
+.rightNavBar{
+    margin-top: 20px;
+}
+.rightnavanchor{
+    text-decoration: none;color: rgba(0, 0, 0, 0.694);
+}
+.rightnavbarli_1{
+    height:40px;
+    width: auto;
+   
+    padding: 5px;
+    display: flex;
+}
+.rightnavbarli_1:hover{
+    background-color: rgba(225, 228, 231, 0.818);
+}
+
+.rightnavbarli_1_icon{
+    height: 30px;
+    width: 30px;
+    display: inline;
+     margin-top: 10px;
+     border-radius: 50px;
+}
+.rightnavbarli_1_text{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 10px;
+     margin-bottom: 10px;
+
+}
+.rightnavbar_list_user_profile_picture{
+    border-radius: 50px;
+   
+}
+.rightnavbar_list_user_profile_picture_story{
+    border-radius: 50px;
+    border: 3px solid green;
+}
+
+
+.postanchor{
+    text-decoration: none;color: rgba(0, 0, 0, 0.694);
+}
+.rightnavbarli_1{
+    height:40px;
+    width: auto;
+   
+    padding: 5px;
+    display: flex;
+}
+.rightnavbarli_1:hover{
+    background-color: rgba(225, 228, 231, 0.818);
+}
+
+.postli_1_icon{
+    height: 50px;
+    width: 50px;
+    display: inline;
+     margin-top: 10px;
+     border-radius: 50px;
+}
+.rightnavbarli_1_text{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 10px;
+     margin-bottom: 10px;
+}
+.post1{
+    background-image: url(./StoryVideos/claud\ technalogy.jpg);
+    background-size: cover;
+        height: 600px;
+        width: auto;
+        margin: 20px;
+       
+}
+.postlikeicon{
+    margin-left: 20px;
+    color: #00000065;
+    text-decoration: none;
+    font-size: large;
+}
+.postcommentanchor{
+    margin-left: 500px;
+    color: #00000077;
+    text-decoration: none;
+    font-size: large;
+}
+.postshareanchor{
+    margin-left: 10px;
+    color: #00000077;
+    text-decoration: none;
+    font-size: large;
+
+}
+.post1{
+    height: 600px;
+    width: auto;
+    background-color:white;
+    margin: 30px;
+    border-radius: 30px;
+}
+.post1_background{
+    height: 100px;
+    width: auto;
+    padding: 5px; 
+    background-color: rgba(224, 222, 220, 0.767);
+    border-top-left-radius: 30px;border-top-right-radius: 30px;
+}
+.post_like_comment_share_send_section{
+    display: flex;
+}
+.post_like_Section{
+    display: flex;
+    padding: 20px;
+}
+.post_like_icon_section{
+    height: 30px;
+    width: 30px;
+   
+   
+}
+.post_like_text_section{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+}
